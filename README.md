@@ -1,4 +1,4 @@
-# React / TypeScript / Redux + RTK + RTK Query / React Router / SASS / Vite
+# React / TypeScript / Redux + RTK / React Router / SASS / Vite
 
 ### npm i
 
