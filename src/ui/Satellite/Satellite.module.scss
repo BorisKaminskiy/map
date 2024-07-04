@@ -1,0 +1,64 @@
+.root {
+	position: absolute;
+	width: 60px;
+	height: 60px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 2px dashed transparent;
+	border-radius: 50%;
+	outline: 2px dashed transparent;
+	outline-offset: -10px;
+	animation: ping 10s linear;
+	cursor: pointer;
+}
+
+.element {
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+	z-index: 1;
+}
+
+.firstGroup {
+	background-color: #0ff;
+}
+
+.secondGroup {
+	background-color: #da70d6;
+}
+
+.thirdGroup {
+	background-color: #7cfc00;
+}
+
+@keyframes ping {
+	0% {
+		width: 25px;
+	  height: 25px;
+	}
+
+	5% {
+		border-color: white;
+		outline-color: white;
+	}
+
+	50% {
+		width: 55px;
+	  height: 55px;
+		opacity: 1;
+	}
+	
+	100% {
+		opacity: 0;
+		display: none;
+	}
+	
+}
+

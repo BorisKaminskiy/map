@@ -1,0 +1,26 @@
+.root {
+	position: absolute;
+	width: 60px;
+	height: 60px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.element {
+	width: 25px;
+	height: 25px;
+	background-color: rgb(165, 63, 63);
+	border-radius: 50%;
+	z-index: 1;
+}
+
+.information {
+	position: absolute;
+	display: flex;
+	flex-direction: column;
+	row-gap: 6px;
+	padding: 50px;
+	color: white;
+	z-index: 2;
+}

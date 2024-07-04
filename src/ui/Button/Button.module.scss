@@ -1,0 +1,28 @@
+.root {
+  //
+  all: unset;
+  margin: 0;
+  box-sizing: border-box;
+  //
+  flex: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.primary {
+  // display: block;
+  padding: 5px 10px;
+  border: 1px solid black;
+  color: black;
+  transition: all 0.2s linear;
+
+  &:hover {
+    opacity: 0.8;
+  }
+
+  &:active {
+    box-shadow: 0 4px 4px 0 rgba(214, 209, 209, 0.25);
+  }
+}
