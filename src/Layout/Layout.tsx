@@ -12,7 +12,7 @@ const Layout: FC = () => {
       <div className={ cn(styles.map_container) }>
         <div className={ cn(styles.image) }>
           <img
-            style={{ width: "100%", height: "100%", objectFit: "cover" }}
+            style={{ width: "100%", height: "100%", objectFit: "cover", filter: "brightness(60%)" }}
             src={backgroundImage}
             alt='map'
           />
