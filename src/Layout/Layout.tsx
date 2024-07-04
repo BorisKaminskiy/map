@@ -11,7 +11,11 @@ const Layout: FC = () => {
       <Header />
       <div className={ cn(styles.map_container) }>
         <div className={ cn(styles.image) }>
-          <img style={{width: '100%', height: 'фгещ'}} src={ backgroundImage } alt="map" />
+          <img
+            style={{ width: "100%", height: "100%", objectFit: "cover" }}
+            src={backgroundImage}
+            alt='map'
+          />
         </div>
         <Outlet />
       </div>
