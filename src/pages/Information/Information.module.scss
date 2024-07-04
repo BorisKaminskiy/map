@@ -10,7 +10,8 @@
 .element {
 	width: 25px;
 	height: 25px;
-	background-color: rgb(165, 63, 63);
+	background-color: #0006;
+	border: 2px dotted #7cfc00 ;
 	border-radius: 50%;
 	z-index: 1;
 }
